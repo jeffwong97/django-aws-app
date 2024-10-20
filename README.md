@@ -7,15 +7,7 @@ Django Application Tutorial
 
 
 ## Coverage
-With &&service
-[![Coverage Status](https://coveralls.io/repos/github/jeffwong97/django-aws-app/badge.svg?branch=main&&service=github)](https://coveralls.io/github/jeffwong97/django-aws-app?branch=main)
-
-Without &&service
 [![Coverage Status](https://coveralls.io/repos/github/jeffwong97/django-aws-app/badge.svg?branch=main)](https://coveralls.io/github/jeffwong97/django-aws-app?branch=main)
-
-
-Without branch
-[![Coverage Status](https://coveralls.io/repos/github/jeffwong97/django-aws-app/badge.svg)](https://coveralls.io/github/jeffwong97/django-aws-app?branch=main)
 
 
 ## Application URL
