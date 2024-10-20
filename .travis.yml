@@ -16,5 +16,5 @@ script:
   - coverage run manage.py test
 
 after_script:
-  - coveralls
+  - COVERALLS_REPO_TOKEN=BYePOCLwz7Dkx4G4v1ZJ0DZzVd4O1Eap0 coveralls
 
