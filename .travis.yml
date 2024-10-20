@@ -1,4 +1,4 @@
 dist: focal
 language: python
-script: echo "Travis is cool!"
+script: echo "Testing..."
 install: skip
