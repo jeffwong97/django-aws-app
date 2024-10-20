@@ -3,9 +3,6 @@ language: python
 python:
   - 3.9
 
-before_install:
-  - sudo apt-get update && sudo apt install openssl
-
 install:
   - pip install -r requirements.txt
 
@@ -17,5 +14,7 @@ script:
   - black --check .
   - flake8 --max-line-length=92 .
   - coverage run manage.py test
+
+after_script:
   - COVERALLS_REPO_TOKEN=BYePOCLwz7Dkx4G4v1ZJ0DZzVd4O1Eap0 coveralls
 
