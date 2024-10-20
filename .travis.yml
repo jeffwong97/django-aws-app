@@ -18,3 +18,17 @@ script:
 after_script:
   - COVERALLS_REPO_TOKEN=BYePOCLwz7Dkx4G4v1ZJ0DZzVd4O1Eap0 coveralls
 
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: AKIA6JQ44YZWSQUKLYDL
+  secret_access_key:
+    secure: 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
+  region: us-west-2
+  app: django-jw4186
+  env: jw4186-env
+  bucket_name: elasticbeanstalk-us-west-2-982534375021
+  on:
+    repo: jeffwong97/django-aws-app
+    branch: main
+  skip_cleanup: 'true'
