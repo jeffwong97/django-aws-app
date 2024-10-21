@@ -16,7 +16,7 @@ script:
   - coverage run manage.py test
 
 after_script:
-  - COVERALLS_REPO_TOKEN=BYePOCLwz7Dkx4G4v1ZJ0DZzVd4O1Eap0 coveralls
+  - COVERALLS_REPO_TOKEN=xf6rncn6E2jwpdkuT9bD3hIyN4vScCZm6 coveralls
 
 deploy:
   provider: elasticbeanstalk
