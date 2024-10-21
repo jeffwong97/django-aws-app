@@ -6,7 +6,7 @@ Django Application Tutorial
 [![Build Status](https://app.travis-ci.com/jeffwong97/django-aws-app.svg?branch=main)](https://app.travis-ci.com/jeffwong97/django-aws-app)
 
 
-## Coverage
+## Coverage Status
 [![Coverage Status](https://coveralls.io/repos/github/jeffwong97/django-aws-app/badge.svg?branch=main)](https://coveralls.io/github/jeffwong97/django-aws-app?branch=main)
 
 
