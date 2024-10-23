@@ -11,4 +11,4 @@ Django Application Tutorial
 
 
 ## Application URL
-http://jw4186-env.eba-ize6jk6f.us-west-2.elasticbeanstalk.com/polls/
+django-aws-env.eba-qj6gdaiu.us-west-2.elasticbeanstalk.com/polls/
